@@ -1,0 +1,63 @@
+.header, .main, .footer {
+    width: 770px;
+    margin: 0 auto;
+    font-family: "Gilroy";
+    font-weight: 500;
+}
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    padding: 15px 0;
+}
+.footer {
+    padding: 270px 0 35px 0;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+li {
+    display: inline;
+    padding-left: 30px;
+}
+.number {
+    font-size: 288px;
+    text-align: center;
+    color: #F27C0F;
+    font-weight: 400;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    width: 200px;
+    padding: 15px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 24px;
+    cursor: pointer;
+}
+button:hover {
+    background: #1F3F68;
+    opacity: 0.2;
+}
+.menu {
+    color: #003399;
+}
+.blue {
+    background-color: #003399;
+}
+.orange {
+    background-color: #F27C0F;
+}
+.gray {
+    background-color: #E5E5E5;
+    color: #000000;
+}
+.footMenu {
+    width: 500px;
+}
+
+
